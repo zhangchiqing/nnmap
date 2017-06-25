@@ -1,6 +1,11 @@
 # nnmap
 `nnmap` is a function that takes a function and a value, then call the function with the value only if the value is not nil (undefined or null).
 
+Type signature:
+```haskell
+nnmap :: (a -> b) -> a? -> b?
+```
+
 ### Usage
 ```
 npm install --save nnmap
